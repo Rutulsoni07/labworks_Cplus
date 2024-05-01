@@ -1,0 +1,40 @@
+
+Q.2 Write a Program to find the maximum number from the given 4 numbers using nested if else. Also, draw a Flowchart in your book.
+
+INPUT=
+#include<stdio.h>
+void main(){
+    int a,b,c,d;
+    printf("Enter the value of a: ");
+    scanf("%d",&a);
+    printf("Enter the value of b: ");
+    scanf("%d",&b);
+    printf("Enter the value of c: " );
+    scanf("%d",&c);
+    printf("Enter the value of d: " );
+    scanf("%d",&d);
+    if(a>b && a>c && a>d ){
+        printf("a is max:%d",a);
+    }
+    else if(b>a && b>c && b>d){
+        printf("b is max:%d",b);
+        
+    } 
+    else if (c>a && c>b && c>d){
+        printf("c is max:%d", c);
+        
+    }
+    else{
+        printf("d is max: %d",d);
+    }
+} 
+return 0;
+}
+
+
+OUTPUT=
+Enter a value of first number :8
+Enter a value of second number :3
+Enter a value of third number :12
+Enter a value of fourth number :7
+the maximum value is : 12

@@ -1,0 +1,15 @@
+Q.2 Write a Program to find the area of a rectangle
+Input:
+int d,e,f;
+printf("enter a value of d:");
+scanf("%d",&d);
+printf("enter a value of e:");
+scanf("%d",&e);
+f=d*e;
+printf("%d",f);
+
+OUTPUT:
+enter a value of d:12
+enter a value of e:15
+180
+

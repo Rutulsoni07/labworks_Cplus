@@ -1,0 +1,29 @@
+Q.1 Write a Program to find the minimum number from the given 2 numbers using if else.
+ 
+INPUT;
+#include <stdio.h>
+
+int main() {
+    int num1,num2;
+   printf("enter num1:");
+   scanf("%d",&num1);
+    printf("enter num2:");
+    scanf("%d",&num2);
+   if(num1 < num2){
+       printf("the min number is:%d",num1);
+   }
+       else{
+           printf("the min number is:%d",num2);
+       }
+   
+OUTPUT;
+enter num1:10
+enter num2:20
+the min number is:10
+
+
+
+
+
+    return 0;
+}

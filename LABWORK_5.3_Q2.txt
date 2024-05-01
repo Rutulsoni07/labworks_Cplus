@@ -1,0 +1,59 @@
+Q.2 Write a Program to create a menu-driven program for Telecom call service conversation using nested switch case.
+
+INPUT=
+// Online C compiler to run C program online
+
+#include <stdio.h>
+
+int main() {
+     int choice,language;
+   
+  printf("press 1 for English");
+  printf("\npress 2 for hindi");
+  printf("\npress 3 for Gujrati");
+  printf("\nEnter your choice:");
+    scanf("%d",&language);
+
+    switch  (language){
+        case 1:
+        printf("\npress 1 for internet recharge, &English");
+        printf("\npress 2 for top-up recharge");
+         printf("\npress 3 for special recharge");
+         printf("\nYou have successfully done a Top-up Recharge.");
+        break;
+        
+        case 2:
+        printf("\nInternet Recharge ke liye 1 dabaiye, &hindi");
+        printf("\nTop-up Recharge ke liye 2 dabaiye");
+        printf("\nSpecial Recharge ke liye 3 dabaiye");
+        printf("\nAapne safaltapurvak Internet Recharge kar liya he.");
+        break;
+        
+        case 3 :
+        printf("\nInternet Recharge mate 1 dabavo");
+        printf("\nTop-up Recharge mate 2 dabavo");
+        printf("\nSpecial Recharge mate 3 dabavo");
+        break;
+          default :
+        printf("invalid number");
+        break;
+    }
+   printf("\nEnter your choice:");
+   scanf("%d",&choice);
+   printf("\nTame safaltapurvak Special Recharge karyu chhe.");
+ 
+    return 0;
+}
+  
+OUTPUT=
+press 1 for English
+press 2 for hindi
+press 3 for Gujrati
+Enter your choice:3
+
+Internet Recharge mate 1 dabavo
+Top-up Recharge mate 2 dabavo
+Special Recharge mate 3 dabavo
+Enter your choice:3
+
+Tame safaltapurvak Special Recharge karyu chhe.

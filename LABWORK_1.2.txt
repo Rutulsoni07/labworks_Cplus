@@ -1,0 +1,72 @@
+Q.1 Write a Program to print your name, age, and school.
+INPUT;
+  printf("name-soni rutul\n");
+printf("age-24\n");
+printf("school name- navchetan high school\n");
+
+Output;
+name-soni rutul
+age-24
+school name- navchetan high school
+
+Q.2 Write a Program to print the given pattern.
+INPUT;
+printf("-\t-\t-\t-\t-\t-\t\n");
+printf("|\t\t\t\t\t|\n");
+printf("R\t\t\t\t\t|\n");
+printf("n\t\t\t\t\t|\n");
+printf("W\t\t\t\t\t|\n");
+printf("|\t\t\t\t\t|\n");
+ printf("-\t-\t-\t-\t-\t-\t\n");
+
+OUTPUT;
+-	-	-	-	-	-	
+|					|
+R					|
+n					|
+W					|
+|					|
+-	-	-	-	-	-
+
+
+Q.3 Write a Program to print the given pattern.
+INPUT;
+int main() {
+printf("*\n");
+printf("* *\n");
+printf("* * *\n");
+printf("* *\n");
+printf("*");
+    return 0;
+
+OUTPUT;
+*
+* *
+* * *
+* *
+*
+Q.4 Write a Program to print the given pattern.
+INPUT;
+
+int main() {
+printf("*\n");
+printf("*\n");
+printf("*\n");
+printf("*     *  *       *\n");
+printf("*    *    *     *\n");
+printf("*   *      *   *\n");
+printf("*  *        * *\n");
+printf("* *\n");
+printf("*\n");
+
+OUTPUT’\
+*
+*
+*
+*     *  *       *
+*    *    *     *
+*   *      *   *
+*  *        * *
+* *
+*
+

@@ -1,0 +1,15 @@
+Q.3 Write a Program to find the area of a triangle.
+
+Input:
+int a,b,c;
+printf("enter a value of a:");
+scanf("%d",&a);
+printf("enter a value of b:");
+scanf("%d",&b);
+c= 0.5 * a * b;
+printf("%d",c);
+
+Output:
+enter a value of a:25
+enter a value of b:20
+25

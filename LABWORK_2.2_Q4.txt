@@ -1,0 +1,19 @@
+Q.4 Write a Program to find Simple interest.
+Input:
+
+int main() {
+int p,n,t,ans;
+printf("enter a value of p:");
+scanf("%d",&p);
+printf("enter a value of n:");
+scanf("%d",&n);
+printf("enter a value of t:");
+scanf("%d",&t);
+ans=p*n*t;
+printf("*sum is %d",ans);
+
+Output:
+enter a value of p:20
+enter a value of n:20
+enter a value of t:20
+*sum is 8000

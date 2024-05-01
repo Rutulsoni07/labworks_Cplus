@@ -1,0 +1,29 @@
+Q.1 Write a Program to find the minimum number from the given 3 numbers using the ternary operator.
+
+INPUT:
+
+#include <stdio.h>
+
+int main() {
+    int first_number, second_number, third_number;
+    printf("enter a value of the first number:");
+    scanf("%d",&first_number);
+    
+    printf("enter a value of the second number:");
+    scanf("%d",&second_number);
+    
+    printf("enter a value of the third number :");
+    scanf("%d",&third_number);
+    
+    (first_number < second_number)? (first_number < third_number)? printf("The minium value is: %d", first_number) : printf("the minimum value is : %d",third_number):(second_number > third_number) ? printf("the minimum value is : %d", second_number) : printf("the minimum value is %d", third_number);
+    
+
+    return 0;
+}
+
+OUTPUT:
+
+enter a value of the first number:8
+enter a value of the second number:3
+enter a value of the third number :12
+the minimum value is 12

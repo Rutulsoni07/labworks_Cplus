@@ -1,0 +1,58 @@
+Q.1 Write a Program to convert temperature from degrees Celsius to Fahrenheit.
+INPUT;
+
+ int c;
+  float f;
+  printf("\ntemperature in Celcius=");
+  scanf("%d",&c);
+
+f=((float)c*9/5)+32;
+
+printf("\ntemperature in Fahrenheit:%f",f);
+
+OUTPUT;
+100.4
+
+
+
+Q.2 Write a C Program to find gross salary by adding % of HRA, DA, and TA of user choice.
+
+INPUT;
+ int grosssalary;
+    int basesalary=100;
+    int HRA=10;
+    int DA=8;
+    int TA=5;
+    
+    grosssalary= basesalary+HRA+DA+TA;
+    printf("%d",grosssalary);
+
+OUTPUT;
+123
+
+
+Q.3 Write a C Program to find the third angle of a right triangle if two other angles are given.
+Input;
+int main() {
+  int firstangle;
+  int secondangle;
+  int thirdangle;
+  int ans;
+  
+  printf("firstangle=\n");
+  scanf("%d",&firstangle);
+  
+  printf("secondangle=\n");
+  scanf("%d",&secondangle);
+  
+ans=180-(firstangle+secondangle);
+printf("\nthirdangle:%d",ans);
+
+OUTPUT;
+firstangle=
+65
+secondangle=
+45
+
+thirdangle:70
+

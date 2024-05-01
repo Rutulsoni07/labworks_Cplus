@@ -1,0 +1,73 @@
+.1 Write a Program to Swap two variables using the third variable.
+
+INPUT;
+int main() {
+int a=10, b=20,c;
+c=a;
+a=b;
+b=c;
+
+printf("%d\n",a);
+
+printf("%d",b);
+    return 0;
+
+OUTPUT;
+20
+10
+
+Q.2 Write a Program to Swap two variables without using a third variable.
+INPUT;
+
+   int a,b;
+    printf("\nbefore swapping a=");
+    scanf("%d",&a);
+    printf("\nbefore swapping b=");
+    scanf("%d",&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("\n after swap:a=%d,b=%d",a,b);
+
+output;
+before swapping a=10
+
+before swapping b=15
+
+ after swap:a=15,b=10
+
+
+
+
+Q.3 Write a Program to find the formula's answer (x+y)^2.
+INPUT;
+int x= 10,y=20,z;
+  z=(x+y) * 2;
+      printf("%d",z);
+    
+OUTPUT;
+60
+
+Q.4 Write a Program to find the formula's answer (x-y)^2.
+INPUT;
+int x= 10,y=20,z;
+  z=(x-y) * 2;
+
+      printf("%d",z);
+
+OUTPUT;
+-20
+
+
+    
+Q.5 Write a Program to find the formula's answer (x+y)^3.
+
+INPUT;
+  int x= 10,y=20,z;
+  z=(x+y) *3 ;
+      printf("%d",z);
+
+OUTPUT;
+90
+
+

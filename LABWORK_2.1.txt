@@ -1,0 +1,41 @@
+Write a Program to print your name, age, and school.
+Code : // Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int a = 12;
+    int b = 6;
+    int c = 18;
+    printf("%d+%d=%d\n",a,b,c);
+   
+   int d = 12;
+   int e = 6;
+   int f = 6;
+   printf("%d-%d=%d\n",d,e,f);
+   
+   int g = 12;
+   int h = 6;
+   int i =72;
+   printf("%d*%d=%d\n",g,h,i);
+   
+   int j= 12;
+   int k= 6;
+   int l = 2;
+   printf("%d/%d=%d\n",j,k,l);
+   
+   int m= 12;
+   int n= 6;
+   int o= 0;
+   printf("%d/%d=%d\n",m,n,o);
+   
+   
+
+
+    return 0;
+}
+Op
+:12+6=18
+12-6=6
+12*6=72
+12/6=2
+12/6=0
