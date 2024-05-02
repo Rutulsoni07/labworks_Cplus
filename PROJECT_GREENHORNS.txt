@@ -1,6 +1,7 @@
 Q.1 Write a Program to convert temperature from degrees Celsius to Fahrenheit.
-INPUT;
-
+INPUT=
+#include <stdio.h>
+int main() {
  int c;
   float f;
   printf("\ntemperature in Celcius=");
@@ -9,15 +10,18 @@ INPUT;
 f=((float)c*9/5)+32;
 
 printf("\ntemperature in Fahrenheit:%f",f);
-
-OUTPUT;
+return 0;
+}
+OUTPUT=
 100.4
 
 
 
 Q.2 Write a C Program to find gross salary by adding % of HRA, DA, and TA of user choice.
 
-INPUT;
+INPUT=
+#include <stdio.h>
+int main() {
  int grosssalary;
     int basesalary=100;
     int HRA=10;
@@ -26,13 +30,16 @@ INPUT;
     
     grosssalary= basesalary+HRA+DA+TA;
     printf("%d",grosssalary);
+return 0;
+}
 
-OUTPUT;
+OUTPUT=
 123
 
 
 Q.3 Write a C Program to find the third angle of a right triangle if two other angles are given.
-Input;
+INPUT=
+#include <stdio.h>
 int main() {
   int firstangle;
   int secondangle;
@@ -47,8 +54,9 @@ int main() {
   
 ans=180-(firstangle+secondangle);
 printf("\nthirdangle:%d",ans);
-
-OUTPUT;
+return 0;
+}
+OUTPUT=
 firstangle=
 65
 secondangle=
