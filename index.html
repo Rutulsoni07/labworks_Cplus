@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  // first lecture practice
+  //    "<br>" is for break line - to update any section in next line
+  let name1 = "demo1";
+  let name2 = "demo2";
+  document.write(name1 + "<br>" + name2);
+  //   or you can use in other way -
+  //   document.write(`${name1} <br> ${name2}`);
+
+  // check weather is in digit or alphabet
+  let ch = "55";
+  if (
+    ch == "0" ||
+    ch == "1" ||
+    ch == "2" ||
+    ch == "3" ||
+    ch == "4" ||
+    ch == "5" ||
+    ch == "6" ||
+    ch == "7" ||
+    ch == "8" ||
+    ch == "9"
+  ) {
+    document.write("Ch is Digit");
+  } else {
+    document.write("Ch is Alphabet");
+  }
+
+  // check weather value is vowel or consonant
+  let value = "h";
+  if (
+    value == "A" ||
+    value == "E" ||
+    value == "I" ||
+    value == "O" ||
+    value == "U" ||
+    value == "a" ||
+    value == "e" ||
+    value == "i" ||
+    value == "o" ||
+    value == "u"
+  ) {
+    document.write("value is vowel");
+  } else {
+    document.write("value is consonant");
+  }
+
+  // check year is leap or not
+  let year = 2024;
+  if (year % 4 == 0) {
+    document.write("leap year");
+  } else {
+    document.write("not leap year");
+  }
+
+  // number is divisible by 5 or 11
+  let number = 55;
+  if (number % 5 == o || number % 11 == 0) {
+    document.write("number is divisible by 5 or 11");
+  } else {
+    document.write("number is not divisible by 5 or 11");
+  }
+
+  // gross salary
+  let grosssalary = 10000,
+    HRA,
+    DA,
+    travel,
+    total;
+  HRA = (10000 * 10) / 100;
+  DA = (10000 * 5) / 100;
+  travel = (10000 * 8) / 100;
+  total = grosssalary + HRA + DA + travel;
+  document.write(total);
+
+  // profit or loss
+  let sellingPrice = 5000;
+  let costPrice = 500;
+  if (sellingPrice > costPrice) {
+    console.log("Profit");
+  } else {
+    console.log("Loss");
+  }
+</script>
