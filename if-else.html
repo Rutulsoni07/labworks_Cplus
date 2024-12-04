@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  // first lecture practice
+  //    "<br>" is for break line - to update any section in next line
+  let name1 = "demo1";
+  let name2 = "demo2";
+  document.write(name1 + "<br>" + name2);
+  //   or you can use in other way -
+  //   document.write(`${name1} <br> ${name2}`);
+
+  // check weather is in digit or alphabet
+  let ch = "55";
+  if (
+    ch == "0" ||
+    ch == "1" ||
+    ch == "2" ||
+    ch == "3" ||
+    ch == "4" ||
+    ch == "5" ||
+    ch == "6" ||
+    ch == "7" ||
+    ch == "8" ||
+    ch == "9"
+  ) {
+    console.log("Ch is Digit");
+  } else {
+    console.log("Ch is Alphabet");
+  }
+
+  // check weather value is vowel or consonant
+  let value = "h";
+  if (
+    value == "A" ||
+    value == "E" ||
+    value == "I" ||
+    value == "O" ||
+    value == "U" ||
+    value == "a" ||
+    value == "e" ||
+    value == "i" ||
+    value == "o" ||
+    value == "u"
+  ) {
+    console.log("value is vowel");
+  } else {
+    console.log("value is consonant");
+  }
+
+  // check year is leap or not
+  let year = 2024;
+  if (year % 4 == 0) {
+    console.log("leap year");
+  } else {
+    console.log("not leap year");
+  }
+
+  // number is divisible by 5 or 11
+  let number = 55;
+  if (number % 5 == 0 || number % 11 == 0) {
+    console.log("number is divisible by 5 or 11");
+  } else {
+    console.log("number is not divisible by 5 or 11");
+  }
+
+  // profit or loss
+  let sellingPrice = 5000;
+  let costPrice = 500;
+  if (sellingPrice > costPrice) {
+    console.log("Profit");
+  } else {
+    console.log("Loss");
+  }
+
+  // vote
+  let age = 17;
+  if (age >= 18) {
+    console.log("Eligible for voting.");
+  } else {
+    console.log("not eligible for vote.");
+  }
+
+  //
+  let a = 18;
+  let b = 65;
+  if (a > b) {
+    console.log("a is older than b");
+  } else {
+    console.log("b is older than a");
+  }
+  // positive , negatice or zero
+
+  let a1 = -5;
+  if (a1 > 0) {
+    console.log("number is possitive");
+  } else if (a1 < 0) {
+    console.log("number is negative");
+  } else {
+    console.log("number is null");
+  }
+
+  // teenage or adult
+  let a2 = 19;
+  if (a2 > 18) {
+    console.log("adult");
+  } else {
+    console.log("teenage");
+  }
+  let val = 500;
+  if (val > 1000) {
+    console.log("The product is costliest");
+  } else {
+    console.log("The product is cheap");
+  }
+</script>
